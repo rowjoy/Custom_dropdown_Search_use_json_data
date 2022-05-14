@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:dropdown_search/views/dropdown_search_screen.dart';
+import 'package:dropdown_search/views/typehead_search_field.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DropdownSearch(),
+      home: TypeHeadSearchField(),
     );
   }
 }
